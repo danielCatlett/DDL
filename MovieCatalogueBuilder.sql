@@ -38,7 +38,7 @@ CREATE TABLE Movie
     Title VARCHAR(128) NOT NULL,
     ReleaseDate DATE NULL,
     GenreID INT NOT NULL,
-    DirectorID INT NOT NULL,
+    DirectorID INT NULL,
     RatingID INT NULL
 );
 
